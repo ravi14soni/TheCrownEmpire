@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SlotSpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 193c3c43597f673478a07bb942a43efe, type: 3}
+    - {fileID: 21300000, guid: ddf6fb4e7de633742882346d2163d41a, type: 3}
+    - {fileID: 21300000, guid: d40a9450d8b5d5547888d31a7b75d8ae, type: 3}
+    - {fileID: 21300000, guid: ca65c9a79a9a82d4ea1ef39a844427cd, type: 3}
+    - {fileID: 21300000, guid: ca65c9a79a9a82d4ea1ef39a844427cd, type: 3}
+    - {fileID: 21300000, guid: ca65c9a79a9a82d4ea1ef39a844427cd, type: 3}
+    - {fileID: 21300000, guid: 42127b88c1e8b774aab5b633e9f7cc89, type: 3}
+    - {fileID: 21300000, guid: 96308f457023e6b4f804743d0c9d23ae, type: 3}
+    - {fileID: 21300000, guid: 19288ab1b7407f641b37fb5a28615d63, type: 3}
+    - {fileID: 21300000, guid: b5d931bf3bf79054b82bff5ca671aa8c, type: 3}
+    - {fileID: 2800000, guid: 3b01362ba790fe04581bff64a1d9c09c, type: 3}
+    - {fileID: 2800000, guid: 503dcfa4af2745c4ca9faa353d4ac29d, type: 3}
+    - {fileID: 21300000, guid: 8eb8b54f92199d048893108643532a3d, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - d40a9450d8b5d5547888d31a7b75d8ae: 21300000
+    - 19288ab1b7407f641b37fb5a28615d63: 21300000
+    - 193c3c43597f673478a07bb942a43efe: 21300000
+    - 503dcfa4af2745c4ca9faa353d4ac29d: 21300000
+    - 96308f457023e6b4f804743d0c9d23ae: 21300000
+    - ca65c9a79a9a82d4ea1ef39a844427cd: 21300000
+    - 42127b88c1e8b774aab5b633e9f7cc89: 21300000
+    - 3b01362ba790fe04581bff64a1d9c09c: 21300000
+    - ddf6fb4e7de633742882346d2163d41a: 21300000
+    - 8eb8b54f92199d048893108643532a3d: 21300000
+    - b5d931bf3bf79054b82bff5ca671aa8c: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d40a9450d8b5d5547888d31a7b75d8ae, type: 3}
+  - {fileID: 21300000, guid: 19288ab1b7407f641b37fb5a28615d63, type: 3}
+  - {fileID: 21300000, guid: 193c3c43597f673478a07bb942a43efe, type: 3}
+  - {fileID: 21300000, guid: 503dcfa4af2745c4ca9faa353d4ac29d, type: 3}
+  - {fileID: 21300000, guid: 96308f457023e6b4f804743d0c9d23ae, type: 3}
+  - {fileID: 21300000, guid: ca65c9a79a9a82d4ea1ef39a844427cd, type: 3}
+  - {fileID: 21300000, guid: 42127b88c1e8b774aab5b633e9f7cc89, type: 3}
+  - {fileID: 21300000, guid: 3b01362ba790fe04581bff64a1d9c09c, type: 3}
+  - {fileID: 21300000, guid: ddf6fb4e7de633742882346d2163d41a, type: 3}
+  - {fileID: 21300000, guid: 8eb8b54f92199d048893108643532a3d, type: 3}
+  - {fileID: 21300000, guid: b5d931bf3bf79054b82bff5ca671aa8c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - line-bet-belin
+  - slotbg
+  - '-'
+  - spin-bg
+  - front-leaf-2
+  - win-and-balance
+  - front-leaf
+  - popupwinlose
+  - +
+  - spin-rotate
+  - slot-maching
+  m_RenderDataMap: {}
+  m_Tag: SlotSpriteAtlas
+  m_IsVariant: 0

@@ -1,0 +1,50 @@
+﻿using System.Collections;
+using System.Linq;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace Mkey
+{
+    public class SlotMenuController : MonoBehaviour
+    {
+        [Space(16, order = 0)]
+        [SerializeField]
+        private SlotController slot;
+
+        #region temp vars
+        private Button[] buttons;
+        #endregion temp vars
+
+        #region regular
+        void Start()
+        {
+            buttons = GetComponentsInChildren<Button>(true);
+        }
+        #endregion regular
+
+        /// <summary>
+        /// Set all buttons interactble = activity
+        /// </summary>
+        /// <param name="activity"></param>
+        public void SetControlActivity(bool activity)
+        {
+            buttons = RemoveButtonByName(buttons, "Menu");
+            if (buttons == null) return;
+            foreach (Button b in buttons)
+            {
+                if (b) b.interactable = activity;
+            }
+        }
+
+        private string GetMoneyName(int count)
+        {
+            if (count > 1) return "coins";
+            else return "coin";
+        }
+        Button[] RemoveButtonByName(Button[] buttons, string nameToRemove)
+        {
+            // Use LINQ to filter out the button with the specified name
+            return buttons.Where(button => button.name != nameToRemove).ToArray();
+        }
+    }
+}
